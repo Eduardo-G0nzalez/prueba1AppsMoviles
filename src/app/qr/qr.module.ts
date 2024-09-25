@@ -8,12 +8,17 @@ import { QrPageRoutingModule } from './qr-routing.module';
 
 import { QrPage } from './qr.page';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon'
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    QrPageRoutingModule
+    QrPageRoutingModule,
+    MatIconModule,
+    MatToolbarModule
   ],
   declarations: [QrPage]
 })

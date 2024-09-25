@@ -1,7 +1,29 @@
-.textoLogin{
+.textoLogin {
     text-align: center;
-}
+  }
+  
+  ion-button {
+    --background: #001f3f;
+    --color: #ffffff; 
+    --background-activated: #001b36;
+    --background-focused: #001b36;
+  }
+  
 
-.header{
-    background-color: #012C56;
-}
+
+  mat-toolbar {
+    background-color: #001f3f;
+    color: #ffffff;
+  }
+  
+  mat-toolbar button[mat-icon-button] {
+    background-color: transparent; 
+    color: #ffffff; 
+    border: none; 
+  }
+  
+  mat-toolbar mat-icon {
+    font-size: 24px; 
+    color: inherit; 
+  }
+  

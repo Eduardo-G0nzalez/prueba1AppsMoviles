@@ -43,3 +43,11 @@
   justify-content: center;
   margin-top: -60px;
 }
+
+.custom-button {
+  --background: #FFD700; 
+  --color: #001f3f; 
+  --background-activated: #FFC400; 
+  --background-focused: #FFC400; 
+}
+

@@ -1,13 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-button (click)="goToHome()">
-        <ion-icon name="arrow-back-outline"></ion-icon>
-        Volver
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
+<mat-toolbar color="primary">
+  <ion-button (click)="goToHome()" class="volver">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+    Volver
+  </ion-button>
+  <span class="spacer"></span>
+</mat-toolbar>
 
 <ion-content>
   <div class="qr-container">

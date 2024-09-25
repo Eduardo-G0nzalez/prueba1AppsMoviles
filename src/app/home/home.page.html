@@ -1,13 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-button (click)="goToLogin()">
-        <ion-icon name="arrow-back-outline"></ion-icon>
-        Volver
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
+<mat-toolbar color="primary">
+  <ion-button (click)="goToLogin()">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+    Volver
+  </ion-button>
+  <span class="spacer"></span>
+</mat-toolbar>
 
 <ion-content>
   <div class="welcome-container">
@@ -16,6 +13,7 @@
     </ion-label>
   </div>
   <div class="qr-button-container">
-    <ion-button expand="full" (click)="mostrarQR()">Mostrar QR</ion-button>
+    <ion-button class="custom-button" expand="full" (click)="mostrarQR()">Mostrar QR</ion-button>
+
   </div>
 </ion-content>

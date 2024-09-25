@@ -34,4 +34,35 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+/*@import "@ionic/angular/css/palettes/dark.system.css";*/
+  
+  ion-content {
+    --background: #ffffff;
+  }
+  
+  ion-toolbar {
+    --background: #001f3f;
+    --color: #ffffff;
+  }
+  mat-toolbar {
+    background-color: #001f3f; /* Azul marino */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  button.mat-icon-button {
+    color: #ffffff;
+  }
+  
+  mat-icon {
+    font-size: 24px;
+  }

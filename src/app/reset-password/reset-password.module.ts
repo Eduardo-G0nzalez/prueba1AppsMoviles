@@ -8,12 +8,17 @@ import { ResetPasswordPageRoutingModule } from './reset-password-routing.module'
 
 import { ResetPasswordPage } from './reset-password.page';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon'
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ResetPasswordPageRoutingModule
+    ResetPasswordPageRoutingModule,
+    MatIconModule,
+    MatToolbarModule
   ],
   declarations: [ResetPasswordPage]
 })
